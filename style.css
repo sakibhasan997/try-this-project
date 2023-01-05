@@ -116,3 +116,49 @@ header {
     color: #B3B3B3;
     padding-bottom: 20px;
 }
+
+/* styles our section */
+.our_containt {
+    display: flex;
+    margin: 50px 230px;
+}
+
+.our_family {
+    margin-left: 25px;
+    height: 360px;
+    width: 350px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.our_img {
+    padding-top: 60px;
+    padding-left: 25px;
+}
+
+.our_containt_title {
+    padding: 30px 20px;
+}
+
+.our_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.our_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    padding-top: 15px;
+
+}
+.color_red{
+    background-color: rgba(241, 168, 168, 0.185);
+}
+.color_blue{
+    background: rgba(255, 89, 89, 0.1);
+border-radius: 5px;
+}
