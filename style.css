@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+/* primary button */
+.primary_button {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 16px 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FF5959;
+    font-family: inter;
+}
+
+/* styles Header */
+header {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_container {
+    text-align: center;
+    padding: 200px 310px;
+}
+
+.header_title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header_sub_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 25px 180px;
+    text-align: center;
+}
+
+/* styles donate */
+.donate_containt {}
+
+.primary {
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 130px;
+}
+
+.primary_title {
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.primary_sub_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.taka {
+    display: flex;
+    margin: 0 340px;
+    justify-content: space-around;
+}
+
+.taka_amount {
+    padding: 40px 30px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    color: #707070;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 50px 0px;
+}
+
+.tk_amount {
+    padding: 40px 30px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 50px 0px;
+}
+
+.other_title {
+    text-align: center;
+    margin: 0 340px;
+}
+
+.other_amount {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+    padding-bottom: 20px;
+}
